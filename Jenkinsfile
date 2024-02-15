@@ -16,4 +16,5 @@ pipeline {
             sh “touch "pipelinefile1"”
         }
     }
+  }
 }
