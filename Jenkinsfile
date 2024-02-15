@@ -6,12 +6,12 @@ pipeline {
         sh "ls"
       }
     }
-    stage(‘print hello’){
+    stage("print hello"){
         steps {
-            sh “echo "hello"”
+            sh “echo 'hello'”
         }
     }
-    stage(‘create file’){
+    stage("create file"){
         steps {
             sh “touch "pipelinefile1"”
         }
