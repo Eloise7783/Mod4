@@ -8,12 +8,12 @@ pipeline {
     }
     stage("print hello"){
         steps {
-            sh “echo 'hello'”
+            sh "echo 'hello'"
         }
     }
     stage("create file"){
         steps {
-          sh “touch "pipelinefile1"”
+          sh "touch 'pipelinefile1'"
         }
     }
   }
