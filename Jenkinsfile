@@ -13,7 +13,7 @@ pipeline {
     }
     stage("create file"){
         steps {
-            sh “touch "pipelinefile1"”
+          sh “touch "pipelinefile1"”
         }
     }
   }
